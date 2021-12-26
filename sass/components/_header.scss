@@ -1,0 +1,43 @@
+.header__cont {
+  display: flex;
+  justify-content: space-between;
+}
+.header__site-nav {
+  display: flex;
+  align-items: center;
+}
+.header__nav {
+  margin-left: 44px;
+}
+.header__link {
+  margin-left: 30px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.67;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #b5b5b5;
+  &:first-child {
+    margin-left: 0;
+  }
+  &:hover {
+    color: #fff;
+  }
+}
+.header__authorize {
+}
+.header__signin {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 112px;
+  color: $color-akcent;
+  background-color: $bgc-color;
+}
+.header__signup {
+  margin-left: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 112px;
+  color: #fff;
+  background-color: $color-akcent;
+}
