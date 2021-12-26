@@ -1,0 +1,15 @@
+.partners__cont {
+  display: flex;
+  justify-content: space-around;
+}
+.partners__link {
+  display: inline-block;
+}
+.partners__icon {
+  width: 105px;
+  height: 25px;
+  fill: #b5b5b5;
+  .partners__link:hover & {
+    fill: #fff;
+  }
+}
