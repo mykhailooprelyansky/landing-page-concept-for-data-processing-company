@@ -21,6 +21,12 @@ p {
   margin: 0;
 }
 
+.inner__title, .yourchoice__title {
+  color: #99efd0;
+  font-family: Inter;
+  font-weight: bold;
+}
+
 .button {
   border-radius: 3px;
   font-family: Rubik;
@@ -52,6 +58,10 @@ body {
   letter-spacing: 0.2px;
 }
 
+.wrap-head {
+  background: linear-gradient(222.26deg, #3b1d60 1.22%, #040d3e 106.28%);
+}
+
 .container {
   max-width: 1130px;
   padding-left: 15px;
@@ -61,7 +71,7 @@ body {
 }
 
 .header__cont {
-  margin-top: 80px;
+  padding-top: 80px;
   margin-bottom: 135px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -129,11 +139,8 @@ body {
 
 .inner__title {
   margin-bottom: 14px;
-  font-family: Inter;
-  font-weight: bold;
   font-size: 44px;
   line-height: 1.14;
-  color: #99efd0;
 }
 
 .inner__subtitle {
@@ -202,6 +209,7 @@ body {
 }
 
 .partners__cont {
+  margin-bottom: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -211,6 +219,7 @@ body {
 
 .partners__link {
   display: inline-block;
+  cursor: pointer;
 }
 
 .partners__icon {
@@ -220,6 +229,79 @@ body {
 }
 
 .partners__link:hover .partners__icon {
-  fill: #fff;
+  fill: #f2994a;
+}
+
+.yourchoice__cont {
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.yourchoice__title {
+  margin-bottom: 13px;
+  font-size: 42px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.yourchoice__text {
+  margin-bottom: 50px;
+  font-size: 16px;
+  line-height: 1.37;
+  text-align: center;
+  color: #8476aa;
+}
+
+.yourchoice__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: -25px;
+}
+
+.yourchoice__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: calc((100% - 6 * 25px) / 3);
+  margin: 25px;
+}
+
+.yourchoice__item-box {
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.yourchoice__item-icon {
+  margin-right: 28px;
+  width: 24px;
+  height: 24px;
+}
+
+.yourchoice__item-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.22;
+  color: #99efd0;
+}
+
+.yourchoice__item-text {
+  margin-left: 52px;
+  font-size: 14px;
+  line-height: 1.57;
+  color: #8476aa;
+}
+
+.yourchoice__img {
+  position: absolute;
+  top: -226px;
+  left: -170px;
+  pointer-events: none;
 }
 /*# sourceMappingURL=main.css.map */

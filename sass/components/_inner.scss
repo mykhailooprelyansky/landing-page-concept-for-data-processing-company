@@ -6,12 +6,10 @@
   width: 540px;
 }
 .inner__title {
+  @extend %section-title;
   margin-bottom: 14px;
-  font-family: Inter;
-  font-weight: bold;
   font-size: 44px;
   line-height: 1.14;
-  color: $color-title;
 }
 .inner__subtitle {
   margin-bottom: 40px;

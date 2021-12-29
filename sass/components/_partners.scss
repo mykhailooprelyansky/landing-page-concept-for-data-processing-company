@@ -1,15 +1,17 @@
 .partners__cont {
+  margin-bottom: 100px;
   display: flex;
   justify-content: space-around;
 }
 .partners__link {
   display: inline-block;
+  cursor: pointer;
 }
 .partners__icon {
   width: 105px;
   height: 25px;
   fill: #b5b5b5;
   .partners__link:hover & {
-    fill: #fff;
+    fill: $color-akcent;
   }
 }
