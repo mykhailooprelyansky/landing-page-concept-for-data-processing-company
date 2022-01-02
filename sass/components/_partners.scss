@@ -6,12 +6,14 @@
 .partners__link {
   display: inline-block;
   cursor: pointer;
+  color: #b5b5b5;
+  transition: color 250ms linear;
+  &:hover {
+    color: $color-akcent;
+  }
 }
 .partners__icon {
   width: 105px;
   height: 25px;
-  fill: #b5b5b5;
-  .partners__link:hover & {
-    fill: $color-akcent;
-  }
+  fill: currentColor;
 }

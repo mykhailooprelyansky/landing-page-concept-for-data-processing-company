@@ -9,6 +9,7 @@
   align-items: center;
 }
 .header__logo {
+  transition: box-shadow 250ms linear;
   &:hover {
     box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.13);
   }
@@ -23,6 +24,7 @@
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #b5b5b5;
+  transition: color 250ms linear;
   &:first-child {
     margin-left: 0;
   }
