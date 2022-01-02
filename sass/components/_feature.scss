@@ -51,13 +51,9 @@
   line-height: 1.33;
 }
 .feature__items {
-  display: flex;
-  align-items: center;
-}
-.feature__item {
-  &--left {
-    margin-right: 70px;
-  }
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 70px;
 }
 .feature__item-icon {
   margin-bottom: 15px;

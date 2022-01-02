@@ -3,6 +3,9 @@
   display: flex;
   justify-content: space-around;
 }
+.partners__title {
+  display: none;
+}
 .partners__link {
   display: inline-block;
   cursor: pointer;
